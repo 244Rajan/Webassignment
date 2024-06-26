@@ -1,0 +1,19 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "A project for managing Lego collection",
+  "main": "server.js",
+  "scripts": {
+    "tw:build": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css --watch"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "daisyui": "^1.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
