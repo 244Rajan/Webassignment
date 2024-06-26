@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav class="bg-gray-800 p-4">
+        <a href="/" class="text-white text-lg">Lego Collection</a>
+        <a href="/about" class="text-white ml-4">About</a>
+        <div class="relative inline-block text-left ml-4">
+            <button class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+                Theme
+            </button>
+            <div class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div class="py-1">
+                    <a href="/lego/sets?theme=someTheme1" class="block px-4 py-2 text-sm text-gray-700">someTheme1</a>
+                    <a href="/lego/sets?theme=someTheme2" class="block px-4 py-2 text-sm text-gray-700">someTheme2</a>
+                    <a href="/lego/sets?theme=someTheme3" class="block px-4 py-2 text-sm text-gray-700">someTheme3</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto">
+        <div class="hero bg-base-200 py-10">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">Welcome to the Lego Collection</h1>
+                    <p class="py-6">Explore our extensive collection of Lego sets.</p>
+                    <a href="/lego/sets" class="btn btn-primary">Explore Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 gap-4 mt-10">
+            <div class="card">
+                <figure><img src="/lego_images/lego_set_image1.jpg" alt="Lego Set 1"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Lego Set 1</h2>
+                    <p>This is an amazing Lego set.</p>
+                    <div class="card-actions justify-end">
+                        <a href="/lego/sets/001-1" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <figure><img src="/lego_images/lego_set_image2.jpg" alt="Lego Set 2"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Lego Set 2</h2>
+                    <p>This is another amazing Lego set.</p>
+                    <div class="card-actions justify-end">
+                        <a href="/lego/sets/002-1" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <figure><img src="/lego_images/lego_set_image3.jpg" alt="Lego Set 3"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Lego Set 3</h2>
+                    <p>This is yet another amazing Lego set.</p>
+                    <div class="card-actions justify-end">
+                        <a href="/lego/sets/003-1" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
